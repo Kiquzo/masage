@@ -306,5 +306,65 @@ h1{
     color: white;
     writing-mode: vertical-rl;
     transform: rotate(180deg);
-    margin-bottom: 49px;
+    margin-bottom: 109px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-master-inf{
+    margin-top: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 17px;
+}
+
+.name-master{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 25;
+}
+
+.line{
+    border: 1px solid white;
+    height: 32px;
+}
+
+.experience{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 17px;
+}
+
+.abilities{
+    margin-top: 22px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    width: 210px;
+    font-weight: 400;
+    color: white;
+    font-size: 19px;
+}
+
+.card button{
+    margin-top: 54px;
+    width: 385px;
+    height: 64px;
+    border: 4px solid white;
+    background: none;
+}
+
+.card a{
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    color: white;
+    padding: 18px 106px;
 }
