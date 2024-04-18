@@ -374,4 +374,11 @@ h1 {
   font-weight: 500;
   color: white;
   padding: 18px 106px;
+}
+
+.sertificate {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  height: 1100px;
 }/*# sourceMappingURL=main.css.map */

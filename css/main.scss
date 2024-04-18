@@ -368,3 +368,8 @@ h1{
     color: white;
     padding: 18px 106px;
 }
+
+.sertificate{
+    @include center-container;
+    height: 1100px;
+}
