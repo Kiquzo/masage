@@ -23,7 +23,9 @@ body{
 
 header{
     @include center-container;
-    position: fixed;
+    // position: fixed;
+    position: absolute;
+    // background-color: transparent;
     height: 100px;
     display: flex;
     align-items: center;
