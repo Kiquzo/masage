@@ -372,4 +372,25 @@ h1{
 .sertificate{
     @include center-container;
     height: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.present{
+    height: 588px;
+    font-size: 86px;
+    -webkit-text-stroke: 3px #F0B479;
+    color: transparent;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+
+.sertificates{
+    height: 615px;
+    font-size: 86px;
+    color: white;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    margin-bottom: 109px;
 }
