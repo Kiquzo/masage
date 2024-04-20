@@ -439,4 +439,33 @@ h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 36px;
   font-weight: 600;
+}
+
+footer {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+footer h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 26px;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer .footer-sub-txt {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
 }/*# sourceMappingURL=main.css.map */
