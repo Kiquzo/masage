@@ -3,14 +3,14 @@ skip_processing = false  # Включаем обработку
 
 [build.processing.css]
 bundle = true
-minify = true  # Минифицируем CSS
+minify = true
 
 [build.processing.js]
 bundle = true
-minify = true  # Минифицируем JS
+minify = true
 
 [build.processing.html]
-minify = true  # Минифицируем HTML
+minify = true
 
 [build.processing.images]
-compress = true  # Включаем сжатие изображений
+compress = true
