@@ -1,7 +1,7 @@
-$(function(){
-    let hideShow =$('h1, .call-to-ass').hide(2500);
-    $('h1, .call-to-ass').show(2500);
-});
+// $(function(){
+//     let hideShow =$('h1, .call-to-ass').hide(2500);
+//     $('h1, .call-to-ass').show(2500);
+// });
 
 $(document).ready(function() {
     $('.face, .back, .figure-correction').mouseenter(function() {
@@ -25,5 +25,20 @@ $(document).ready(function() {
         mouseleave: function() {
             $(this).css("color", "white");
         }
+    });
+});
+
+$(document).ready(function () {
+    $('.burger-menu').click(function () {
+        $('.sidebar').addClass('active');
+    });
+
+    $('.close-btn').click(function () {
+        $('.sidebar').removeClass('active');
+    });
+
+    // Закрытие меню при клике на ссылку
+    $('.sidebar ul li a').click(function () {
+        $('.sidebar').removeClass('active');
     });
 });

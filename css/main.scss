@@ -11,6 +11,7 @@
 *{
     margin: 0;
     padding: 0;
+    // outline: 4px solid green !important;
 }
 
 body{
@@ -50,6 +51,10 @@ header img{
     font-size: 20px;
     text-decoration: none;
     font-weight: 600;
+}
+
+.sidebar{
+    display: none;
 }
 
 .salution-block{
@@ -280,6 +285,7 @@ h1{
     font-weight: 700;
     color: black;
     line-height: 2;
+    white-space: nowrap;
 }
 
 .thin{
@@ -328,7 +334,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0 17px;
+    gap: 0 17px;    
 }
 
 .name-master{
@@ -465,4 +471,574 @@ footer .footer-sub-txt{
     font-size: 20px;
     font-weight: 500;
     color: white;
+}
+
+.burger-menu{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    @mixin center-container{
+        max-width: 768px;
+    }
+
+    header img{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .navigation{
+        gap: 0 20px;
+    }
+
+    .navigation a{
+        font-size: 17px;
+    }
+
+    .salution-block{
+        height: 700px;
+        background-size: cover; 
+        background-position: center;
+    }
+    
+    h1{
+        padding-top: 250px;
+        padding-left: 80px;
+        width: 500px;
+        height: auto;
+        font-size: 30px;
+    }
+    
+    .call-to-ass{
+        margin-top: 30px;
+        margin-left: 80px;
+        width: 270px;
+        height: 50px;
+        border-radius: 10px;
+    }
+    
+    .type-of-massage{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 40px 10px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .vertical-txt{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .type{
+        height: auto;
+        font-size: 50px;
+        color: transparent;
+        writing-mode: horizontal-tb;
+        transform: none;
+    }
+    
+    .massage{
+        height: auto;
+        font-size: 50px;
+        writing-mode: horizontal-tb;
+        transform: none;
+        margin-bottom: 0em;
+    }
+
+    .add-of-as{
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 80px 0px;
+    }
+    
+    .add-of-as img{
+        display: none;
+    }
+    
+    .add-of-as-txt{
+        margin-left: 0px;
+    }
+    
+    .add-of-as-txt p{
+        font-size: 40px;
+        width: 550px;
+    }
+    
+    .add-of-as-txt span{
+        font-size: 44px;
+    }
+    
+    .add-of-as-txt button{
+        margin-top: 50px;
+        width: 300px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .add-of-as-txt a{
+        padding: 0px;
+        font-size: 20px;
+    }
+
+    .spec-predl{
+        height: auto;
+        flex-wrap: wrap;
+        background-size: cover;
+        background-position: center;
+        justify-content: center;
+        padding: 50px 0;
+    }
+    
+    .spec{
+        height: auto;
+        font-size: 50px;
+        color: transparent;
+        writing-mode: horizontal-tb;
+        transform: none;
+    }
+    
+    .predl{
+        height: auto;
+        font-size: 50px;
+        writing-mode: horizontal-tb;
+        transform: none;
+        margin-bottom: 50px;
+    }
+    
+    .tablet {
+        width: 100%;
+        max-width: 90%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .tablet h3 {
+        font-size: 28px;
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    .tablet-txt {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .tablet-txt p {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+    .tablet-txt {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0 140px;
+        text-align: left;
+    }
+
+    .thin {
+        display: none;
+    }
+
+    .masters{
+        padding: 50px 0;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 50px 0;
+    }
+
+    .best{
+        height: auto;
+        font-size: 50px;
+        color: transparent;
+        writing-mode: horizontal-tb;
+        transform: none;
+    }
+    
+    .master-txt{
+        height: auto;
+        font-size: 50px;
+        color: white;
+        writing-mode: horizontal-tb;
+        transform: none;
+        margin-bottom: 0px;
+    }
+
+    .sertificate{
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 50px 0;
+        padding: 100px 0;
+    }
+    
+    .present{
+        height: auto;
+        font-size: 50px;
+        writing-mode: horizontal-tb;
+        transform: none;
+    }
+    
+    .sertificates{
+        height: auto;
+        font-size: 50px;
+        writing-mode: horizontal-tb;
+        transform: none;
+        margin-bottom: 0px;
+    }
+
+    .sertificate-main-txt{
+        gap: 40px 0;
+    }
+    
+    .sertificate-main-txt h3{
+        font-size: 30px;
+    }
+    
+    .sertificate-main-txt p{
+        font-size: 23px;
+        width: 500px;
+    }
+    
+    .sertificate-main-txt button{
+        width: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .sertificate-main-txt a{
+        padding: 0px 0px;
+        font-size: 25px;
+    }
+
+    .sertificate img{
+        display: none;
+    }
+
+    footer{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px 0;
+        padding: 50px 0;
+    }
+
+    .contacts{
+        width: 429px;
+    }
+}
+
+@media (max-width: 430px) {
+    @mixin center-container {
+        max-width: 430px;
+        padding: 0 15px;
+    }
+
+    header img {
+        margin: 0 auto;
+        width: 50px;
+        height: 60px;
+    }
+
+    .navigation {
+        gap: 10px;
+        justify-content: center;
+        display: none;
+    }
+
+    .navigation a {
+        font-size: 14px;
+    }
+
+    .salution-block {
+        height: 500px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    h1 {
+        padding-top: 180px;
+        padding-left: 20px;
+        width: 100%;
+        font-size: 24px;
+    }
+
+    .call-to-ass {
+        width: 220px;
+        height: 45px;
+        border-radius: 8px;
+    }
+
+    .type-of-massage {
+        flex-direction: column;
+        gap: 20px;
+        padding: 30px 0;
+    }
+
+    .vertical-txt {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .type{
+        -webkit-text-stroke: 1px white;
+    }
+
+    .type,
+    .massage {
+        font-size: 32px;
+        writing-mode: horizontal-tb;
+        transform: none;
+        height: auto;
+        text-align: center;
+    }
+
+    .add-of-as {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 40px 0;
+    }
+
+    .add-of-as img {
+        display: none;
+    }
+
+    .add-of-as-txt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .add-of-as-txt p {
+        font-size: 22px;
+        width: 100%;
+    }
+
+    .add-of-as-txt span {
+        font-size: 26px;
+    }
+
+    .add-of-as-txt button {
+        margin-top: 20px;
+        width: 250px;
+        height: 60px;
+    }
+
+    .add-of-as-txt a {
+        font-size: 18px;
+    }
+
+    .spec-predl {
+        padding: 30px 0;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .spec{
+        -webkit-text-stroke: 1px white;
+    }
+
+    .spec,
+    .predl {
+        font-size: 32px;
+        writing-mode: horizontal-tb;
+        transform: none;
+        height: auto;
+    }
+
+    .tablet {
+        max-width: 90%;
+        padding: 15px;
+    }
+
+    .tablet h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .tablet-txt {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .masters {
+        flex-direction: column;
+        gap: 30px;
+        padding: 30px 0;
+    }
+
+    .best,
+    .master-txt {
+        font-size: 32px;
+        writing-mode: horizontal-tb;
+        transform: none;
+    }
+
+    .sertificate {
+        flex-wrap: wrap;
+        text-align: center;
+        gap: 30px;
+        padding: 50px 0;
+    }
+
+    .present{
+        -webkit-text-stroke: 1px #F0B479;
+    }
+
+    .present,
+    .sertificates {
+        font-size: 32px;
+        writing-mode: horizontal-tb;
+        transform: none;
+    }
+
+    .sertificate-main-txt {
+        gap: 20px;
+        align-items: center;
+    }
+
+    .sertificate-main-txt h3 {
+        font-size: 24px;
+    }
+
+    .sertificate-main-txt p {
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .sertificate-main-txt button {
+        width: 250px;
+    }
+
+    .sertificate-main-txt a {
+        font-size: 18px;
+    }
+
+    .sertificate img {
+        display: none;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 20px;
+        padding: 30px 0;
+    }
+
+    .addresses{
+        width: 100%;
+        text-align: center;
+    }
+
+    .contacts {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Бургер-кнопка */
+    .burger-menu {
+        display: block;
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        width: 40px;
+        height: 40px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        z-index: 101;
+    }
+
+    .burger-menu div {
+        width: 35px;
+        height: 5px;
+        background: white;
+        margin: 6px 0;
+        transition: 0.3s;
+    }
+
+    /* Сайдбар */
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 70%;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.9);
+        box-shadow: 2px 0 10px rgba(255, 255, 255, 0.2);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 60px;
+        transition: 0.4s;
+        z-index: 100;
+    }
+
+    .sidebar.active {
+        left: 0;
+    }
+
+    .sidebar ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .sidebar ul li {
+        margin: 20px 0;
+    }
+
+    .sidebar ul li a {
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        transition: 0.3s;
+    }
+
+    .sidebar ul li a:hover {
+        color: #F0B479;
+    }
+
+    /* Кнопка закрытия */
+    .close-btn {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        font-size: 30px;
+        color: white;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 375px) {
+
+    @mixin center-container {
+        max-width: 375px;
+        padding: 0 15px;
+    }
+    
+    h1 {
+        padding-top: 180px;
+        padding-left: 20px;
+        width: 100%;
+        font-size: 20px;
+    }
 }
