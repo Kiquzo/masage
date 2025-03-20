@@ -1,0 +1,16 @@
+[build.processing]
+skip_processing = false  # Включаем обработку
+
+[build.processing.css]
+bundle = true
+minify = true  # Минифицируем CSS
+
+[build.processing.js]
+bundle = true
+minify = true  # Минифицируем JS
+
+[build.processing.html]
+minify = true  # Минифицируем HTML
+
+[build.processing.images]
+compress = true  # Включаем сжатие изображений
