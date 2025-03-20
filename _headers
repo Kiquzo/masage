@@ -1,11 +1,11 @@
 # Правила для всех изображений
 /imgs/*
-  Cache-Control: public, max-age=31536000, immutable
+Cache-Control: public, max-age=31536000, immutable
 
 # Правила для всех CSS файлов
 /*.css
-  Cache-Control: public, max-age=31536000, immutable
+Cache-Control: public, max-age=31536000, immutable
 
 # Правила для всех JS файлов
 /*.js
-  Cache-Control: public, max-age=31536000, immutable
+Cache-Control: public, max-age=31536000, immutable
